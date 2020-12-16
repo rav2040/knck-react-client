@@ -1,0 +1,60 @@
+svg {
+  fill: #355381;
+  margin-right: 16px;
+}
+
+#main-container {
+  top: 15vh;
+}
+
+#title {
+  font-size: 6em;
+  font-family: 'Lobster', cursive;
+  color: #355381;
+}
+
+#subtitle {
+  font-weight: 400;
+}
+
+.text-faded {
+  color: #bbb;
+}
+
+#hidden-url-container {
+  display: none;
+}
+
+.form-group {
+  max-width: 720px;
+}
+
+#copy-btn {
+  width: 5rem;
+}
+
+@media only screen and (max-width: 720px) {
+  #subtitle {
+    font-size: 1.5rem;
+  }
+
+  footer p {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  #subtitle {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-height: 520px) {
+  #main-container {
+    top: 0vh;
+  }
+
+  footer {
+    display: none;
+  }
+}
